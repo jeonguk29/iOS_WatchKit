@@ -14,6 +14,7 @@
 		640A3FB42B059C4800272A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640A3FB32B059C4800272A1D /* Preview Assets.xcassets */; };
 		640A3FBF2B05CFEC00272A1D /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640A3FBE2B05CFEC00272A1D /* PhoneView.swift */; };
 		64BA17242B05EB480029E515 /* ControlCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BA17232B05EB480029E515 /* ControlCenterView.swift */; };
+		64F32CFD2B07277900D98A13 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F32CFC2B07277900D98A13 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		640A3FB32B059C4800272A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		640A3FBE2B05CFEC00272A1D /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
 		64BA17232B05EB480029E515 /* ControlCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterView.swift; sourceTree = "<group>"; };
+		64F32CFC2B07277900D98A13 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				640A3FBE2B05CFEC00272A1D /* PhoneView.swift */,
 				64BA17232B05EB480029E515 /* ControlCenterView.swift */,
+				64F32CFC2B07277900D98A13 /* TipsView.swift */,
 			);
 			path = "Create a WatchOS View";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F32CFD2B07277900D98A13 /* TipsView.swift in Sources */,
 				640A3FAF2B059C4500272A1D /* DigitalCrownView.swift in Sources */,
 				640A3FBF2B05CFEC00272A1D /* PhoneView.swift in Sources */,
 				640A3FAD2B059C4500272A1D /* TheFirstWatchAppApp.swift in Sources */,
