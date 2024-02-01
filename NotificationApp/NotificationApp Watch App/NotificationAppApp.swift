@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct NotificationApp_Watch_AppApp: App {
+    
+    private let localNotification = LocalNotifications()
     var body: some Scene {
         WindowGroup {
             ContentView()

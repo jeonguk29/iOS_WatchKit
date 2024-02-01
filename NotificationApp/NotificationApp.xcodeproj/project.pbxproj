@@ -14,6 +14,7 @@
 		645FEBFF2B122D1200AB7783 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645FEBFE2B122D1200AB7783 /* Preview Assets.xcassets */; };
 		645FEC0A2B122D8A00AB7783 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645FEC092B122D8A00AB7783 /* NotificationView.swift */; };
 		645FEC0C2B122DFA00AB7783 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645FEC0B2B122DFA00AB7783 /* NotificationController.swift */; };
+		64A3BA742B6B6E13008849E2 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3BA732B6B6E13008849E2 /* LocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		645FEC092B122D8A00AB7783 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		645FEC0B2B122DFA00AB7783 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		645FEC0D2B12307900AB7783 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		64A3BA732B6B6E13008849E2 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				645FEC092B122D8A00AB7783 /* NotificationView.swift */,
 				645FEC0B2B122DFA00AB7783 /* NotificationController.swift */,
 				645FEC0D2B12307900AB7783 /* PushNotificationPayload.apns */,
+				64A3BA732B6B6E13008849E2 /* LocalNotifications.swift */,
 			);
 			path = "NotificationApp Watch App";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				645FEC0A2B122D8A00AB7783 /* NotificationView.swift in Sources */,
 				645FEBFA2B122D0F00AB7783 /* ContentView.swift in Sources */,
 				645FEC0C2B122DFA00AB7783 /* NotificationController.swift in Sources */,
+				64A3BA742B6B6E13008849E2 /* LocalNotifications.swift in Sources */,
 				645FEBF82B122D0F00AB7783 /* NotificationAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
