@@ -9,8 +9,13 @@ import SwiftUI
 
 
 struct NotificationView: View {
+    var name: String = "Woogie"
+    var imageNmae: String = "logo"
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(imageNmae)
+            .resizable()
+            .scaledToFit()
+        Text("Hello, \(name)")
     }
 }
 
